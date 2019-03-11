@@ -1,8 +1,6 @@
-<?= 'Toto dit : '; ?>
-
 <?php
 
- sleep(3); // On peut ralentir le script volontairement
+// sleep(3);
 
 $sentences = [
     'Hello world!',
@@ -13,7 +11,3 @@ $sentences = [
 ];
 
 echo $sentences[array_rand($sentences)];
-
-
-
-?>
